@@ -1,0 +1,94 @@
+/* 
+CSS selectors :
+    >> Universal selector (*)
+    >> Id Selector (#)
+    >> class selector (.)
+    >> element selector
+    >> selector list
+    >> descendant selector
+    >> direct child selector 
+*/
+
+/* 1.element selector */
+/* h2{
+    color: yellow;
+    border: 2px solid rgb(243, 8, 8);
+    background-color: black;
+}
+/* solid,dashesd,dotted three tyoes of line */
+
+/* p{
+    color: yellow;
+    background-color: black;
+} */
+/* we can also say h2,p for making avoid the repeat */
+/* if i use body instead of body then entire page gets change */
+
+/* 2.element selector list */
+/*
+ h2,p{
+    color: yellow;
+    background-color: black;
+}
+ */
+
+ /* 3.Universal selector */
+ /* all body gets change  or select all the elements*/
+ /* 
+ *{
+    color: yellow;
+    background-color: black;
+}
+ */
+
+ /* 4.id selector */
+ /* use # before id name */
+/* 
+#suyash{
+    color: rgb(2, 5, 5);
+    background-color: aquamarine;
+}
+ */
+
+/* 5.class selectors */
+/* to select more than 1 attr */
+/* class selectors sart with dot */
+/* 
+.yes{
+    color: rgb(2, 5, 5);
+    background-color: aquamarine;
+} 
+*/
+
+/* units in css */
+/* px,%,vh,vw,rem,em */
+
+/* 6.descendant selector */
+/* 
+li a{
+    color: aliceblue;
+    background-color: black;
+}
+ */
+
+/* 7. direct child selector */
+/* 
+li > a{
+    color: aliceblue;
+    background-color: black;
+}
+  */
+
+/* granparent > parent > child */
+/* we have to refer  g>p and g>c is not possible */
+
+/* box model */
+h1{
+    border: 2px solid black;
+    /* padding to add space to border */
+    /* padding: 48 px ; : for all directions */
+    padding: 23px 24px 44px 45px;
+    /* sequence : top right bottom left */
+    margin: 56px;
+    /* margin help to get space on all side */
+}

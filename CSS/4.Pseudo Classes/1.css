@@ -1,0 +1,79 @@
+/* Pseudo Classes : */
+/* 
+Hover State : 
+    >> Pointing Cursor on the button
+ */
+button:hover{
+    color: rgb(220, 20, 20);
+    background-color: rgb(162, 242, 122);
+    cursor: pointer;
+}
+
+/*
+ Ative state :  
+    >> to highlight a button
+ */
+button:active{
+    border: 4px solid pink;
+}
+
+/* 
+Focus State :
+    >> to see that you you have already visited the state
+ */
+ button:focus{
+    background-color:rgb(105, 117, 211) ;
+ }
+
+ /* Anchor Un-Visited link */
+ a:link{
+    color:rgb(69, 42, 165)  ;
+ }
+
+/* Anchor Visited link */
+a:visited{
+   color:rgb(13, 184, 35)  ;
+}
+
+
+span{
+   padding: 0px;
+   margin: 20px;
+   background-color: yellow;
+} 
+
+
+/* First child */
+/* span:first-child{
+   background-color :read-only
+}
+*/
+
+/* Last child */
+/* 
+span:last-child{
+   background-color: burlywood;
+}
+*/
+
+/* nth child (e.g.third child) */
+/* 
+span:nth-child(3){
+   background-color: aqua;
+} 
+*/
+
+/* stles for even child number */
+
+span:nth-child(even ){
+   background-color: aqua;
+} 
+
+/* get required text after tags */
+h1::after{
+   content : "Good Morning";
+   background-color:palegreen;
+   border-radius: 10px;
+}
+
+

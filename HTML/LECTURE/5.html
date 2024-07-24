@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Video and audio tags + iframe</title>
+</head>
+
+<body>
+    <h6>Here is our video</h6>
+    <!-- autoplay to remove pause at stop -->
+    <!-- loop for repeatedly playing video after copletion -->
+    <video id="localvideo" controls autoplay loop width="320" height="240">
+        <!-- mp3(for audio),.ogg (for audio and videos) -->
+        <source src="sample.mp4" type="video/mp4"/>
+        <!-- <source src="" type="video/ogg"/> -->
+        Hey your browser does not supporrt the video
+    </video>
+                <!-- for one more video use -->
+                <!-- <video src="sample.mp4" controls autoplay loop width="320" height="240"> -->
+                    <!-- mp4(for audio),.ogg (for audio and videos)
+                            <source src="sample.mp4" type="video/mp4"/>
+                    <source src="" type="video/ogg"/> -->
+                    <!-- Hey your browser does not supporrt the video -->
+                <!-- </video> -->
+
+    <!--To start video directly at 20 sec -->
+    <!-- document.getElementById('localvideo').currentTime=20 -->
+
+    <!-- audio -->
+    <audio controls autoplay loop>
+        <source src="audio.mp3" type="audio/mp3"/>
+    </audio>
+
+    <!-- iframe -->
+    <!-- to play yt video on page -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2P_0Q8CIjw8?si=szCGR0g2tjvwrACa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+
+</html>

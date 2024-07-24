@@ -1,0 +1,60 @@
+h2{
+    background-color: black;
+    color: aliceblue;
+    border: 2px dotted red;
+    padding: 100px;
+    margin-left:30px ;
+}
+
+/* top,right bottom left [clock-wise direction] */
+/* padding : space on internal structure */
+/* margin  : external to box/border  */
+
+.displayInCss1{   
+    background-color: yellow;
+    color: rgb(1, 6, 6);
+    height: 35px;
+    /* width:40px only 40px block get colored; */
+    display :block;
+}
+/* block will take entire width of the screen */
+
+
+.displayInCss2{
+    display: inline;
+    background-color: aqua;
+    color: red ;
+    /* height: 40px;     didn't work in inline*/ 
+}
+/* Inline will take what space it is required */
+
+
+.displayInCss3{
+    display: inline-block;
+    background-color: aqua;
+    height : 40px;
+    width: 100px;
+    color: red ;
+}
+/* inline-block : where it is a combination of 1 and 2*/
+
+/* STATIC POSITION */
+.positionincss{
+    position: static; /* by default */
+    background-color: black;
+    color: aliceblue;
+    border: 1 px solid red;
+}
+
+/* RELATIVE POSITION */
+.positionincss2{
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    /* i can change position relative to my need using following  : */
+    top: 10px; 
+    left: 5px;
+    right: o;
+    bottom: 0;
+    border: 1 px solid red;
+}

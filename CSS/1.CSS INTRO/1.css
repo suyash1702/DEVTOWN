@@ -1,0 +1,16 @@
+h5{
+    background-color: purple;
+    color: yellow;
+    border: 6px solid red;
+}
+
+/* 
+CSS selectors :
+    >> Universal selector (*)
+    >> Id Selector (#)
+    >> class selector (.)
+    >> element selector
+    >> selector list
+    >> descendant selector
+    >> direct child selector 
+*/

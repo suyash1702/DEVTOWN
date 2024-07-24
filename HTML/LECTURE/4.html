@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FORMS</title>
+    </head>
+    <!-- for background image -->
+    <!-- <body style="background-image:url('https://images7.alphacoders.com/110/1104810.jpg'); background-repeat: no-repeat;background-size: 100%;"> -->
+        <!-- FORMS -->
+    
+    <body>
+
+        <table>
+            <tr>
+                <td><label>UserName :</label></td>
+                <td><input type="text" placeholder="Plz enter your username" value="Master"/></td>
+            </tr>
+
+            <tr>
+                <td><label>Password :</label></td>
+                <td><input type="password" placeholder="please enter your password"/></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender :</label></td>
+                <td>
+                    <input type="radio" name="Gender"/><label>Male</label>
+                    <input type="radio" name="Gender"/><label>Female</label>
+                    <input type="radio" name="Gender"/><label> Prefer not to say</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Select course you are aware about :</label></td>
+                <td>
+                    <input type="checkbox" value="c" name="course"/><label>C</label>
+                    <input type="checkbox" value="cpp" name="course"/><label>CPP</label>
+                    <input type="checkbox" value="java" name="course"/><label>JAVA</label>
+                    <input type="checkbox" value="python" name="course" checked/><label>PYTHON</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Choose from the course :</label></td>
+                <td><select>
+                
+                    <option value=""></option>
+                    <option value="wd">WEB Development</option>
+                    <option value="ds">Data Science</option>
+                    <option value="ml">Machine learning</option>
+                    <option value="ai">AI</option>
+                    <option value="bd">Big Data</option>
+    
+                </select></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <!-- <td><label>Submit :</label></td> -->
+                <td><input type="submit"/></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <!-- <td><label>Reset :</label></td> -->
+                <td><input type="reset"/></td>
+            </tr>
+
+        </table>
+
+        <br/>
+        <br/>
+        <hr/>
+
+        <form>
+            <label>UserName :</label>
+            <input type="text" placeholder="Plz enter your username" value="Master"/>
+            
+            <!-- use value for default written value -->
+            
+            <br/>
+            <br/>
+
+
+            <label>Password :&nbsp;&nbsp;</label>
+            <input type="password" placeholder="please enter your password"/> 
+
+            <br/>
+            <br/>
+
+            <label>Gender :&nbsp;&nbsp;</label>
+            <input type="radio" name="Gender"/><label>Male</label>
+            <input type="radio" name="Gender"/><label>Female</label>
+            <input type="radio" name="Gender"/><label> Prefer not to say</label>
+
+            <br/>
+            <br/>
+
+            <label><h2>Select course you are aware about :</h2></label>
+            <br/>
+            <input type="checkbox" value="c" name="course"/><label>C</label>
+            <input type="checkbox" value="cpp" name="course"/><label>CPP</label>
+            <input type="checkbox" value="java" name="course"/><label>JAVA</label>
+            <input type="checkbox" value="python" name="course" checked/><label>PYTHON</label>
+
+            <!-- checked for by default  clicked option -->
+
+            <br/>
+            <br/>
+
+            <label>Date :</label>
+            <input type="datetime-local"/>
+
+            <br/>
+            <br/>
+
+            <label>Choose from the course :</label>
+            <select>
+                
+                <option value=""></option>
+                <option value="wd">WEB Development</option>
+                <option value="ds">Data Science</option>
+                <option value="ml">Machine learning</option>
+                <option value="ai">AI</option>
+                <option value="bd">Big Data</option>
+
+            </select>
+
+            <br/>
+            <br/>
+
+            <input type="submit"/>
+            <input type="reset"/>
+
+        </form>
+    </body>
+</html>

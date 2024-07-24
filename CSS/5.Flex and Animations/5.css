@@ -1,0 +1,16 @@
+.parent{
+    background-color: red;
+    display: flex;
+    /* flex takes only space which is required */
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color :aqua;
+    border: 2px solid black;
+}
+
+.demo{
+    background-color:rgb(197, 147, 244);
+}
